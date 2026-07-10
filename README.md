@@ -53,22 +53,25 @@ The project shows the deep learning workflow. This includes:
 RealVsFake/
 
 
+## 📂 Project Structure
 
-── sample_images/
-   ── real.jpg
-   ── fake.jpg
-
-
-── src/
-   ── model.py
-   ── train.py
-   ── predict.py
-
-
-── rvf_model.pth
-── requirements.txt
-── README.md
-──.gitignore
+```text
+RealVsFake/
+│
+├── sample_images/
+│   ├── real.jpg
+│   └── fake.jpg
+│
+├── src/
+│   ├── model.py
+│   ├── train.py
+│   └── predict.py
+│
+├── rvf_model.pth
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 
 ## Dataset
@@ -137,7 +140,10 @@ It works best on images and may not work perfectly on new types of images.
 ## Author
 
 **Aryan Sharma**
+
 B.Tech Artificial Intelligence & Machine Learning
+
 Symbiosis Institute of Technology ,Pune
+
 GitHub:
 https://github.com/aryan-sharma-09
