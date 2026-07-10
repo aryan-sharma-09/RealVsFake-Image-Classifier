@@ -48,12 +48,8 @@ The project shows the deep learning workflow. This includes:
 
 *   **VS Code**
 
+
 ## Project Structure
-
-RealVsFake/
-
-
-## 📂 Project Structure
 
 ```text
 RealVsFake/
