@@ -25,6 +25,7 @@ train_dataset=datasets.ImageFolder(
     root="dataset/train",
     transform=transform
 )
+print(train_dataset.class_to_idx)
 # print(train_dataset.classes)
 # print(len(train_dataset))
 # print(train_dataset[0])

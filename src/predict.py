@@ -16,7 +16,8 @@ transform = transforms.Compose([
     transforms.ToTensor()
 ])
 
-image=Image.open("")
+image_path = input("Enter image path: ")
+image = Image.open(image_path)
 
 image=transform(image)
 image=image.unsqueeze(0)

@@ -25,7 +25,6 @@ class CNN(nn.Module):
         x=self.relu(x)
         x=self.pool(x)
 
-
         x=self.flatten(x)
 
         x=self.fc(x)
